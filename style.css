@@ -1,0 +1,38 @@
+body{
+    background-color:antiquewhite;
+    margin: 0;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.square{
+    background: white;
+    width: 50px;
+    height: 50px;
+    border: 1px solid silver;
+    border-collapse: collapse;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.square-place{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 150px auto;
+}
+
+.square-row{
+    display: flex;
+}
+
+.score{
+    display: flex;
+    max-width: 300px;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-size: 20px;
+}
